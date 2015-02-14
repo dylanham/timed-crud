@@ -1,0 +1,16 @@
+=form_for @pizza do |f|
+  =f.label      :size
+  =f.text_field :size
+  .col
+    =f.label      :first_topping
+    =f.text_field :first_topping
+  .col
+    =f.label      :second_topping
+    =f.text_field :second_topping
+  .col
+    =f.label      :third_topping
+    =f.text_field :third_topping
+  .col
+    =f.label      :cost
+    =f.text_field :cost
+  =f.submit
